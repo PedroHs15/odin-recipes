@@ -1,9 +1,10 @@
 *{
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
-    background-color: rgb(183, 45, 45);
+    background-color: rgb(150, 0, 35);
     color: white;
 }
 
@@ -16,9 +17,9 @@ body{
 }
 
 .title{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    background-color: rgba(236, 197, 2, 0.993);
+    background-color: rgba(236, 197, 2, 0.479);
     padding: 20px;
     margin: 20px;
     border: 20px double rgba(255, 255, 0);
@@ -27,7 +28,7 @@ body{
 }
 
 .card-button{
-    background: rgb(150, 45, 45);
+    background: rgb(145, 25, 45);
     width: 1000px;
     margin: auto;
     padding-top: 10px;
@@ -96,38 +97,71 @@ img{
     font-size: 14px;
 }
 .back-link{
+    font-size: larger;
     display: block;
     text-align: end;
     color: white;
 }
 .description{
     outline: aut;
-    width: 1800px;
+    width: 1200px;
     margin: auto;
     padding: 10px;
     padding-inline: 40px;
-    background: rgba(236, 197, 2, 0.993);
-    border: 20px double rgb(0, 150, 0);
+    background: rgba(236, 197, 2, 0.808);
+    border: 20px double rgb(0, 0, 0);
     font-size: larger;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.ingredient-card{
-    display: block;
-    width: 600px;
-    height: 800px;
-    outline: auto;
-    margin-right: 90px;
-}
-.how-to-card{
-    display: inline-block;
-    width: 600px;
-    height: 800px;
-    outline: auto;
-}
 .layout-two-tables{
-    display: inline-block;
-    outline: auto;
     width: auto;
-    height: 800px;
+    height: auto;
+    margin: 60px;
+    padding: 20px;
+    background: rgb(150, 0, 35);
+}
+.ingredient-card{
+    display: inline-block;
+    background:rgb(0, 150, 0);
+    border: 20px rgb(0, 0, 0) double;
+    padding: 20px;
     margin: auto;
+    height: 500px;
+    width: 700px;
+}
+.how-to-card.lasanha-button-color{
+    display: inline-block;
+    background: rgb(206, 9, 65);
+    border: 20px rgb(0, 0, 0) double;
+    margin: auto;
+    padding: 20px;
+    height: 500px;
+    width: 900px;
+    margin-left: 80px;
+}
+.how-to-card.salada-button-color{
+    display: inline-block;
+    background: rgba(143, 238, 0, 0.918);
+    border: 20px rgb(0, 0, 0) double;
+    margin: auto;
+    padding: 20px;
+    height: 600px;
+    width: 900px;
+    margin-left: 80px;
+}
+.how-to-card.bife-button-color{
+    display: inline-block;
+    background: rgb(122, 8, 8);
+    border: 20px rgb(0, 0, 0) double;
+    margin: auto;
+    padding: 20px;
+    height: 500px;
+    width: 900px;
+    margin-left: 80px;
+}
+li{
+    font-size: larger;
+}
+h2{
+    text-align: center;
 }
