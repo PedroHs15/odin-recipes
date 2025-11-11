@@ -82,15 +82,19 @@ img{
     display: block;
     border: 5px solid red;
     padding: 3px;
-    margin: auto;
-    outline: aut;
+    /* margin-inline: auto; */
+    /* outline: auto; */
 }
 .autor-atribution {
-    width: 1000px;
+    display: flex;
+    width: auto;
     margin: auto;
-    text-align: end;
     margin-bottom: 20px;
-
+    /* outline: auto; */
+}
+.teste{
+    margin: auto;
+    /* outline: 5px solid blue; */
 }
 .attr-link{
     color: rgb(255, 255, 255);
@@ -105,68 +109,73 @@ img{
     color: white;
 }
 .description{
-    width: 1200px;
-    margin: auto;
-    margin-bottom: 20px;
-    padding: 10px 40px;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    margin: 0px 100px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
     background: rgba(236, 197, 2, 0.808);
     border: 20px double rgb(0, 0, 0);
     font-size: larger;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    outline: aut;
+    /* outline: auto; */
 }
 .layout-two-tables{
-    display: inline-block;
+    text-align: justify;
+    display: flex;
     width: auto;
     height: auto;
     margin: 0px 100px;
-    padding: 10px;
+    padding: inherit;
     background: rgb(150, 0, 35);
+    /* outline: auto; */
 }
 .ingredient-card{
     display: inline-table;
     background:rgb(0, 150, 0);
     border: 20px rgb(0, 0, 0) double;
-    padding: 0px 10px;
-    margin-top: 20px;
+    padding: 0px 20px;
+    margin-right: 50px;
     height: auto;
-    width: 700px;
-    outline: aut;
+    /* outline: auto; */
 }
 .how-to-card.lasanha-button-color{
     display: inline-table;
     background: rgb(206, 9, 65);
     border: 20px rgb(0, 0, 0) double;
-    margin-left: 50px;
+    margin-left: auto;
     /* margin-right: 10px; */
     /* margin-top: 20px; */
-    padding: 0px 10px;
+    padding: 0px 20px;
     height: auto;
-    width: 900px;
+    /* outline: auto; */
 }
 .how-to-card.salada-button-color{
     display: inline-table;
     background: rgba(143, 238, 0, 0.918);
     border: 20px rgb(0, 0, 0) double;
-    margin: auto;
-    padding: 0px 10px;
+    padding: 0px 20px;
     height: auto;
-    width: 900px;
-    margin-left: 50px;
+    width: auto;
+    margin-left: auto;
 }
 .how-to-card.bife-button-color{
     display: inline-table;
     background: rgb(122, 8, 8);
     border: 20px rgb(0, 0, 0) double;
-    margin: auto;
-    padding: 0px 10px;
+    padding: 0px 20px;
     height: auto;
-    width: 900px;
-    margin-left: 50px;
+    width: auto;
+    margin-left: auto;
+    /* outline: auto; */
 }
 li{
     font-size: larger;
 }
 h2{
     text-align: center;
+}
+.highlight-word{
+    font-weight: bold;
 }
